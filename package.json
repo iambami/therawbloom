@@ -1,0 +1,72 @@
+{
+  "name": "rawbloom",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://crimson-corp.github.io/Rawbloom",
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "animate.css": "^4.1.1",
+    "bootstrap": "^4.6.0",
+    "dotenv": "^8.2.0",
+    "emailjs-com": "^2.6.4",
+    "firebase": "^8.2.5",
+    "gh-pages": "^3.1.0",
+    "jquery": "^3.5.1",
+    "jquery.easing": "^1.4.1",
+    "rc-dropdown": "^3.2.0",
+    "rc-menu": "^8.10.5",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-icons": "^4.1.0",
+    "react-id-swiper": "^4.0.0",
+    "react-jquery-plugin": "^1.1.7",
+    "react-notifications-component": "^3.0.3",
+    "react-outclick": "0.0.4",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.1",
+    "react-transition-group": "^4.4.1",
+    "swiper": "^6.4.8",
+    "uuid": "^8.3.2",
+    "web-vitals": "^0.2.4",
+    "workbox-background-sync": "^5.1.3",
+    "workbox-broadcast-update": "^5.1.3",
+    "workbox-cacheable-response": "^5.1.3",
+    "workbox-core": "^5.1.3",
+    "workbox-expiration": "^5.1.3",
+    "workbox-google-analytics": "^5.1.3",
+    "workbox-navigation-preload": "^5.1.3",
+    "workbox-precaching": "^5.1.3",
+    "workbox-range-requests": "^5.1.3",
+    "workbox-routing": "^5.1.3",
+    "workbox-strategies": "^5.1.3",
+    "workbox-streams": "^5.1.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
