@@ -9,9 +9,9 @@ function RecieptUpload() {
 
     async function upload(e) {
         e.preventDefault();
-        if (!image) return;
+        if (!image) return alert("Please Choose a File!");
         else if (!ImageTypes.includes(image.type)) {
-            return alert("Please upload an Image");
+            return alert("Please upload an Image!");
         }
         try {
             setUploadUpdate("Attempting Upload...");
@@ -30,6 +30,8 @@ function RecieptUpload() {
                 <input
                     type="file"
                     className="image"
+                    accept="image/*"
+                    capture="camera"
                     onChange={({ target: { files } }) => setImage(files[0])}
                 />
                 <button className="uploadBtn" onClick={upload}>

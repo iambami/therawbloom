@@ -22,12 +22,22 @@ export const States = [
     {
         city: "Ibadan",
         delivery_method: "Home Delivery",
-        shipping_fee: 500,
+        shipping_fee: 700,
     },
     {
         city: "Oyo",
         delivery_method: "Park Delivery",
-        shipping_fee: 500,
+        shipping_fee: 1000,
+    },
+    {
+        city: "Ajah",
+        delivery_method: "Park Delivery",
+        shipping_fee: 2000,
+    },
+    {
+        city: "Ago Iwoye",
+        delivery_method: "Park Delivery",
+        shipping_fee: 1500,
     },
     {
         city: "Lagos",
@@ -45,6 +55,11 @@ export const States = [
         shipping_fee: 2500,
     },
     {
+        city: "Badagry",
+        delivery_method: "Home Delivery",
+        shipping_fee: 4000,
+    },
+    {
         city: "Abuja",
         delivery_method: "GIG",
         shipping_fee: 3000,
@@ -55,9 +70,14 @@ export const States = [
         shipping_fee: 1500,
     },
     {
+        city: "Ilorin(Malete)",
+        delivery_method: "Park Delivery",
+        shipping_fee: 2000,
+    },
+    {
         city: "Ilorin",
         delivery_method: "Home Delivery",
-        shipping_fee: 3000,
+        shipping_fee: 5000,
     },
     {
         city: "Ondo",
@@ -85,29 +105,24 @@ export const States = [
         shipping_fee: 2000,
     },
     {
-        city: "Akure",
-        delivery_method: "Home Delivery",
-        shipping_fee: 3000,
-    },
-    {
-        city: "Ekiti",
-        delivery_method: "Home Delivery",
+        city: "Ado Ekiti",
+        delivery_method: "Park Delivery",
         shipping_fee: 2000,
     },
     {
-        city: "Ekiti",
-        delivery_method: "Home Delivery",
-        shipping_fee: 3500,
+        city: "Oye Ekiti",
+        delivery_method: "Park Delivery",
+        shipping_fee: 2000,
     },
     {
         city: "Kano",
         delivery_method: "GIG",
-        shipping_fee: 3000,
+        shipping_fee: 4000,
     },
     {
         city: "Kaduna",
         delivery_method: "GIG",
-        shipping_fee: 3000,
+        shipping_fee: 4000,
     },
     {
         city: "Port-harcourt",
@@ -120,14 +135,54 @@ export const States = [
         shipping_fee: 1500,
     },
     {
+        city: "Okuku",
+        delivery_method: "Park Delivery",
+        shipping_fee: 1500,
+    },
+    {
         city: "Osogbo",
         delivery_method: "Park Delivery",
         shipping_fee: 1500,
     },
     {
+        city: "Ogbomosho",
+        delivery_method: "Park Delivery",
+        shipping_fee: 2000,
+    },
+    {
+        city: "Ijebu Ode",
+        delivery_method: "Park Delivery",
+        shipping_fee: 1500,
+    },
+    {
+        city: "Ibafo",
+        delivery_method: "Park Delivery",
+        shipping_fee: 1000,
+    },
+    {
+        city: "Arepo Ogun State",
+        delivery_method: "Park Delivery",
+        shipping_fee: 1500,
+    },
+    {
+        city: "Babcock University",
+        delivery_method: "Park Delivery",
+        shipping_fee: 2500,
+    },
+    {
         city: "Imo",
         delivery_method: "GIG",
         shipping_fee: 3000,
+    },
+    {
+        city: "Abia",
+        delivery_method: "GIG/Peace Mass",
+        shipping_fee: 3500,
+    },
+    {
+        city: "Abakaliki",
+        delivery_method: "GIG/Peace Mass",
+        shipping_fee: 3800,
     },
     {
         city: "Anambra",
@@ -136,13 +191,13 @@ export const States = [
     },
     {
         city: "Benin",
-        delivery_method: "GIG",
-        shipping_fee: 3000,
+        delivery_method: "GIG/Peace Mass",
+        shipping_fee: 3500,
     },
     {
         city: "Edo",
         delivery_method: "GIG",
-        shipping_fee: 3000,
+        shipping_fee: 3500,
     },
     {
         city: "Ogun",
@@ -155,9 +210,24 @@ export const States = [
         shipping_fee: 1000,
     },
     {
+        city: "Abeokuta Camp",
+        delivery_method: "Park Delivery",
+        shipping_fee: 1500,
+    },
+    {
         city: "Jos",
         delivery_method: "GIG",
-        shipping_fee: 3000,
+        shipping_fee: 4000,
+    },
+    {
+        city: "Sokoto",
+        delivery_method: "GIG",
+        shipping_fee: 4000,
+    },
+    {
+        city: "Uyo",
+        delivery_method: "GIG",
+        shipping_fee: 3500,
     },
     {
         city: "Maduguri",
@@ -167,7 +237,7 @@ export const States = [
     {
         city: "Delta",
         delivery_method: "GIG",
-        shipping_fee: 3500,
+        shipping_fee: 3800,
     },
     {
         city: "Asaba",
@@ -175,9 +245,9 @@ export const States = [
         shipping_fee: 3000,
     },
     {
-        city: "Clabar",
+        city: "Calabar",
         delivery_method: "GIG",
-        shipping_fee: 3000,
+        shipping_fee: 3800,
     },
     {
         city: "Cross River",
@@ -190,6 +260,71 @@ export const States = [
         shipping_fee: 1500,
     },
     {
+        city: "Offa",
+        delivery_method: "Park Delivery",
+        shipping_fee: 1500,
+    },
+    {
+        city: "Ilesha",
+        delivery_method: "Park Delivery",
+        shipping_fee: 1500,
+    },
+    {
+        city: "Sango Otta",
+        delivery_method: "Park Delivery",
+        shipping_fee: 2000,
+    },
+    {
+        city: "Saapade",
+        delivery_method: "Park Delivery",
+        shipping_fee: 1500,
+    },
+    {
+        city: "Ire Poly",
+        delivery_method: "Park Delivery",
+        shipping_fee: 1500,
+    },
+    {
+        city: "Ede",
+        delivery_method: "Park Delivery",
+        shipping_fee: 1500,
+    },
+    {
+        city: "Iwo",
+        delivery_method: "Park Delivery",
+        shipping_fee: 1500,
+    },
+    {
+        city: "Ajayi Crowther",
+        delivery_method: "Park Delivery",
+        shipping_fee: 1000,
+    },
+    {
+        city: "Koladaisi university",
+        delivery_method: "Park Delivery",
+        shipping_fee: 1000,
+    },
+    {
+        city: "Sagamu",
+        delivery_method: "Park Delivery",
+        shipping_fee: 1500,
+    },
+    {
+        city: "Saki",
+        delivery_method: "Park Delivery",
+        shipping_fee: 1500,
+    },
+    {
+        city: "Igboora",
+        delivery_method: "Park Delivery",
+        shipping_fee: 1000,
+    },
+    {
+        city: "Eruwa",
+        delivery_method: "Park Delivery",
+        shipping_fee: 500,
+    },
+    {
         city: "Nasarawa",
         delivery_method: "GIG",
         shipping_fee: 3000,
@@ -197,12 +332,12 @@ export const States = [
     {
         city: "Bayelsa",
         delivery_method: "GIG",
-        shipping_fee: 3000,
+        shipping_fee: 4000,
     },
     {
         city: "Bauchi",
         delivery_method: "GIG",
-        shipping_fee: 3000,
+        shipping_fee: 4000,
     },
     {
         city: "Benue",
@@ -212,7 +347,7 @@ export const States = [
     {
         city: "Enugu",
         delivery_method: "GIG",
-        shipping_fee: 2700,
+        shipping_fee: 3800,
     },
     {
         city: "Gombe",
@@ -223,6 +358,26 @@ export const States = [
         city: "Oweri",
         delivery_method: "GIG",
         shipping_fee: 3000,
+    },
+    {
+        city: "Port Harcourt",
+        delivery_method: "GIG/Peace Mass",
+        shipping_fee: 1500,
+    },
+    {
+        city: "Warri",
+        delivery_method: "GIG/Peace Mass",
+        shipping_fee: 3000,
+    },
+    {
+        city: "Owerri",
+        delivery_method: "GIG/Peace Mass",
+        shipping_fee: 3500,
+    },
+    {
+        city: "Port Harcourt",
+        delivery_method: "GIG/Peace Mass",
+        shipping_fee: 1500,
     },
     {
         city: "Lokoja(ABC Park)",
