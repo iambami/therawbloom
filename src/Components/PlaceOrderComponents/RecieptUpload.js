@@ -38,7 +38,7 @@ function RecieptUpload() {
                     Upload
                 </button>
             </div>
-            <span className="update mt-2">{uploadUpdate}</span>
+            <span>{uploadUpdate}</span>
         </div>
     );
 }
