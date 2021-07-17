@@ -96,7 +96,7 @@ function Details({ props: { totalPrice, prev, confirm, Order, formData } }) {
                     <h4>Payment</h4>
                 </div>
                 <div className="content">
-                    <div className="summary shadow p-2">
+                    <div className="summary shadow p-3">
                         <span className="tag">Your Order</span>
                         <hr />
                         <div className="d-flex justify-content-between data">
@@ -113,7 +113,7 @@ function Details({ props: { totalPrice, prev, confirm, Order, formData } }) {
                             <span>&#8358;{totalPrice + formData.shipping_fee}</span>
                         </div>
                     </div>
-                    <div className="Order_address shadow p-2">
+                    <div className="Order_address shadow p-3">
                         <div className="data">
                             <span className="tag">Your Address</span>
                             <p>{formData.address}</p>
@@ -143,7 +143,7 @@ function Details({ props: { totalPrice, prev, confirm, Order, formData } }) {
                             </div>
                         </div>
                     </div>
-                    <div className="reciept-upload p-2">
+                    <div className="reciept-upload p-3">
                         <p>Please to pay for your Order, Please upload a Reciept of Transfer to:</p>
                         <pre>
                             Account Name: Rawbloom Skincare <br />
