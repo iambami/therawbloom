@@ -965,6 +965,7 @@ body .menu-ingredients {
     color: #333;
     height: 90vh;
     overflow-y: scroll;
+    border-radius: 0.5rem;
 }
 
 .menu-container {
@@ -1608,7 +1609,8 @@ textarea {
     border: 1px solid var(--main);
     color: white;
     font-weight: 600;
-    box-shadow: 0px 0px 1px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 0.4rem;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
 }
 
 .slide2 .content {
@@ -1638,6 +1640,7 @@ textarea {
 .summary,
 .reciept-upload {
     background: white;
+    border-radius: 0.4rem;
 }
 
 .tag {
@@ -2166,4 +2169,7 @@ form.admin_login button[type="submit"] {
 
 section#contact .section-title {
     padding-bottom: 0;
+}
+.filepond--credits {
+    display: none;
 }
