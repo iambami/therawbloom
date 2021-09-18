@@ -62,7 +62,7 @@ export const States = [
     {
         city: "Abuja",
         delivery_method: "GIG",
-        shipping_fee: 3000,
+        shipping_fee: 3500,
     },
     {
         city: "Ilorin",
@@ -77,7 +77,7 @@ export const States = [
     {
         city: "Ilorin",
         delivery_method: "Home Delivery",
-        shipping_fee: 5000,
+        shipping_fee: 4000,
     },
     {
         city: "Ondo",
@@ -127,7 +127,7 @@ export const States = [
     {
         city: "Port-harcourt",
         delivery_method: "GIG",
-        shipping_fee: 3000,
+        shipping_fee: 3500,
     },
     {
         city: "Osun",
@@ -357,7 +357,7 @@ export const States = [
     {
         city: "Oweri",
         delivery_method: "GIG",
-        shipping_fee: 3000,
+        shipping_fee: 3500,
     },
     {
         city: "Port Harcourt",
@@ -383,6 +383,11 @@ export const States = [
         city: "Lokoja(ABC Park)",
         delivery_method: "Park Delivery",
         shipping_fee: 3000,
+    },
+    {
+        city: "Ekpoma",
+        delivery_method: "Park Delivery",
+        shipping_fee: 4000,
     },
 ];
 

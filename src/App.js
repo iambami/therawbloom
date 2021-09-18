@@ -26,6 +26,7 @@ function App() {
     const [PlaceOrderModal, setPlaceOrderModal] = useState(false);
     const [products, setProducts] = useState([]);
     const [totalPrice, setTotalPrice] = useState(0);
+    const [constProduct, setConstProduct] = useState([]);
 
     useEffect(() => {
         setTimeout(() => {
@@ -147,6 +148,7 @@ function App() {
                 collection.forEach((data) => {
                     list.push(data.data());
                 });
+                setConstProduct(list);
                 setProducts(list);
             });
         } catch (error) {
@@ -173,6 +175,8 @@ function App() {
                             setPlaceOrderModal,
                             products,
                             AddToCart,
+                            setProducts,
+                            constProduct,
                         }}
                     >
                         <Route path="/store">

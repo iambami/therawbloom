@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { BiCart } from "react-icons/bi";
 import { FaTruck } from "react-icons/fa";
 import { FiMinus, FiPlus } from "react-icons/fi";
